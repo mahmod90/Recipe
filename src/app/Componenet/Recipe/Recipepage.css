@@ -1,0 +1,82 @@
+body {
+    background-color: blanchedalmond;
+    
+}
+ 
+.recipe-home {
+    padding: 30px 25px 25px 25px;
+}
+
+.styles {
+    /* background-color: white; */
+    width: 40%;
+    height: 2000px;
+    margin: auto;
+    border-radius: 25px;
+
+}
+h2 {
+    color: saddlebrown;
+}
+
+.time-color {
+    color: #E30B5D;
+}
+td.colortd {
+    color: #641010e3;
+    font-weight: 700;
+}
+.num {
+    color: #641010e3;
+}
+span {
+    color: black;
+    font-weight: 500;
+}
+
+.img-card {
+    width: auto;
+    margin: auto;
+}
+.img-card img {
+    width: 100%;
+    border-radius: 20px;
+}
+.text-card {
+    padding: 30px 5px 10px ;
+}
+.text-card p {
+    font-size: 15px;
+}
+
+/* .size-section {
+    padding-left: 65px;
+} */
+
+/* .time {
+    background-color: #efe3ef;
+} */
+.time h5 {
+    color: #E30B5D;
+
+}
+
+.custom-list { 
+    /* Add custom styles for the list */
+    list-style-type: none; /* Remove default bullet points */
+    padding-left: 0; /* Remove default left padding */
+  }
+  
+  .custom-list li {
+    margin-bottom: 8px; /* Add margin between list items */
+  }
+  
+  .custom-list li span {
+    font-weight: bold; /* Make the span text bold */
+  }
+
+  @media (max-width:'576px') {
+    .styles {
+        width: auto ;
+    }
+  }
